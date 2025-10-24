@@ -1,0 +1,91 @@
+# ============================================================
+# 🔒 IGNORAR PASTAS E ARQUIVOS DE BUILD
+# ============================================================
+
+# Pastas de compilação
+/release/
+/build/
+/dist/
+/game
+/covers
+/roms
+/scripts
+
+# PyInstaller e intermediários
+*.spec
+*.manifest
+*.bak
+
+# ============================================================
+# 🧰 IGNORAR CONFIGS LOCAIS E AMBIENTES
+# ============================================================
+
+# Configurações do VSCode
+.vscode/
+
+# Arquivos de ambiente
+.env
+
+
+
+# Configs de IDEs
+.idea/
+*.iml
+*.toml
+
+# ============================================================
+# 🐍 IGNORAR ARQUIVOS TEMPORÁRIOS DE PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+
+# Cache de pacotes
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================================
+# 💾 ARQUIVOS BINÁRIOS E DE SISTEMA
+# ============================================================
+
+# Executáveis e builds
+*.dll
+*.so
+*.dylib
+
+
+# Arquivos de disco e imagem
+*.iso
+*.img
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.chd
+
+# Logs
+*.log
+*.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# 🧩 OUTROS IGNORADOS ESPECÍFICOS DO PROJETO
+# ============================================================
+
+# Backups e temporários
+*.old
+*.temp
+*.bak
+
+# Cache de compilação customtkinter ou tkinter
+*_tk_cache/
