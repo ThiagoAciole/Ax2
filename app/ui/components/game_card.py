@@ -81,7 +81,7 @@ class GameCard(ctk.CTkFrame):
             text=title_text,
             compound="top",
             fg_color=TRANSPARENT,
-            hover_color="#221833",
+            hover_color="#1D1D1D",
             width=width,
             height=height,
             text_color="white",

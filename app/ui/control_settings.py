@@ -215,22 +215,25 @@ class ControlSettings:
         self.right = ctk.CTkFrame(self.body, fg_color=BACKGROUND_DARK)
         self.right.pack(side="right", fill="y", padx=(10, self.px), pady=self.py)
 
-        rbuttons = (28, 32)
+        rbuttons = (34, 28)
+        startButtos=(28, 22)
+        dpads=(24, 24)
+        actions=(28, 28)
         self.icons = {
             "L1": load_button_image("l1.png", rbuttons),
             "L2": load_button_image("l2.png", rbuttons),
             "R1": load_button_image("r1.png", rbuttons),
             "R2": load_button_image("r2.png", rbuttons),
-            "Cross": load_button_image("cross.png", (28, 28)),
-            "Circle": load_button_image("circle.png", (28, 28)),
-            "Square": load_button_image("square.png", (28, 28)),
-            "Triangle": load_button_image("triangle.png", (28, 28)),
-            "Up": load_button_image("up.png", (24, 24)),
-            "Down": load_button_image("down.png", (24, 24)),
-            "Left": load_button_image("left.png", (24, 24)),
-            "Right": load_button_image("right.png", (24, 24)),
-            "Select": load_button_image("select.png", (24, 24)),
-            "Start": load_button_image("start.png", (24, 24)),
+            "Cross": load_button_image("cross.png",actions),
+            "Circle": load_button_image("circle.png", actions),
+            "Square": load_button_image("square.png", actions),
+            "Triangle": load_button_image("triangle.png",actions),
+            "Up": load_button_image("up.png", dpads),
+            "Down": load_button_image("down.png", dpads),
+            "Left": load_button_image("left.png", dpads),
+            "Right": load_button_image("right.png", dpads),
+            "Select": load_button_image("select.png", startButtos),
+            "Start": load_button_image("start.png", startButtos),
         }
 
         self.img_path = get_asset_path("joystick.png")

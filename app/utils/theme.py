@@ -5,8 +5,8 @@ from utils.constants import *
 from utils.paths import get_asset_path
 
 # 🎨 COLORS
-PRIMARY_COLOR = "#8f4cff"  # Roxo principal
-PRIMARY_HOVER = "#a866ff"  # Hover / destaque
+PRIMARY_COLOR = "#1F7FFF"  # Roxo principal
+PRIMARY_HOVER = "#48B7FF"  # Hover / destaque
 SURFACE_HOVER = "#3D3D3D"
 BACKGROUND = "#202020"
 BACKGROUND_DARK = "#121212"  # Fundo base
